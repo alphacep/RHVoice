@@ -24,7 +24,7 @@ import android.os.Bundle;
 import android.util.Log;
 
 public final class SampleTextActivity extends Activity {
-    private final String TAG = "RHVoiceSampleTextActivity";
+    private final String TAG = "RHVoiceSampleTxtActvty";
 
     @Override
     public void onCreate(Bundle bundle) {

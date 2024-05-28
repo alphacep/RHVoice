@@ -27,4 +27,8 @@
   <string name="decrease">Vähennä.</string>
   <string name="reset">Nollaa</string>
   <string name="version">Versio</string>
+  <string name="user_dicts">Käyttäjien sanakirjoja</string>
+  <string name="add">Lisätä</string>
+  <string name="remove">Poista</string>
+  <string name="config_file">Konfigurointitiedosto</string>
 </resources>

@@ -83,12 +83,11 @@ public final class MainActivity extends AppCompatActivity implements AvailableLa
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()) {
-            case R.id.settings:
-                showSettings();
-                return true;
-            default:
-                return super.onOptionsItemSelected(item);
+        if (item.getItemId() == R.id.settings) {
+            showSettings();
+            return true;
+        } else {
+            return super.onOptionsItemSelected(item);
         }
     }
 

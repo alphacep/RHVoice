@@ -21,7 +21,7 @@ import android.content.Intent;
 import android.util.Log;
 
 public final class OnMyPackageReceiver extends BroadcastReceiver {
-    private static final String TAG = "RHVoiceOnMyPackageReceiver";
+    private static final String TAG = "RHVoiceOnMyPkgRcvr";
 
     @Override
     public void onReceive(Context context, Intent intent) {

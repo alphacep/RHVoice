@@ -30,7 +30,7 @@ import java.util.List;
 import android.util.Log;
 
 public final class CheckTTSData extends Activity {
-    private static final String TAG = "RHVoiceCheckDataActivity";
+    private static final String TAG = "RHVoiceCheckDataAct";
     private DataManager dm;
     private ArrayList<String> installedLanguages = new ArrayList<String>();
     private ArrayList<String> notInstalledLanguages = new ArrayList<String>();

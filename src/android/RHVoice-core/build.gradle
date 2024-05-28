@@ -27,6 +27,7 @@ android {
 
     buildFeatures {
         prefab true
+        buildConfig = true
     }
 
     defaultConfig {
@@ -40,7 +41,8 @@ android {
         }
         externalNativeBuild {
             ndkBuild {
-                arguments 'V=1'
+                arguments '-j10'
+                arguments += 'V=1'
                 cppFlags = ['-fexceptions', '-frtti', '-std=c++11']
             }
         }
@@ -110,6 +112,7 @@ dependencies {
     implementation 'androidx.appcompat:appcompat:1.6.1'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
     implementation 'androidx.documentfile:documentfile:1.0.1'
+    implementation 'com.android.support:multidex:1.0.3'
 
     def lifecycle_version = "2.5.1"
     implementation "androidx.lifecycle:lifecycle-livedata:$lifecycle_version"
@@ -125,7 +128,6 @@ dependencies {
     implementation 'com.google.guava:guava:31.1-android'
     implementation 'com.squareup.moshi:moshi:1.14.0'
     implementation 'io.github.vvb2060.ndk:curl:8.1.1'
-    implementation 'org.conscrypt:conscrypt-android:2.5.2'
     coreLibraryDesugaring 'com.android.tools:desugar_jdk_libs:2.0.3'
 }
 

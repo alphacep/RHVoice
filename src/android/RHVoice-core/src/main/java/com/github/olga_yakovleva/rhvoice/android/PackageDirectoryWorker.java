@@ -26,7 +26,7 @@ import com.google.common.util.concurrent.ListenableFuture;
 import com.google.common.util.concurrent.MoreExecutors;
 
 public final class PackageDirectoryWorker extends ListenableWorker {
-    private static final String TAG = "RHVoicePackageDirectoryWorker";
+    private static final String TAG = "RHVoicePkgDirectoryWkr";
 
     public PackageDirectoryWorker(Context context, WorkerParameters params) {
         super(context, params);

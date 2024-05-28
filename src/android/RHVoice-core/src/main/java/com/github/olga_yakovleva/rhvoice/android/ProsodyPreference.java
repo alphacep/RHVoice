@@ -23,7 +23,7 @@ import androidx.preference.DialogPreference;
 import android.util.Log;
 
 public abstract class ProsodyPreference extends DialogPreference {
-    private static final String TAG = "RHVoice.ProsodyPreference";
+    private static final String TAG = "RHVoiceProsodyPref";
     private String prefValue = "100";
 
     public ProsodyPreference(Context context) {
